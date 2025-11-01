@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Ford Clásicos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Encuesta: Camionetas Ford Clásicas</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="modelos.html">Modelos</a>
+            <a href="historia.html">Historia</a>
+            <a href="galeria.html">Galería</a>
+            <a href="encuesta.html">Encuesta</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Queremos conocer tu opinión</h2>
+            <form>
+                <label>1. ¿Cuál es tu camioneta Ford favorita?</label><br>
+                <select>
+                    <option>F-100</option>
+                    <option>Bronco</option>
+                    <option>Ranger</option>
+                    <option>Otra</option>
+                </select><br><br>
+
+                <label>2. ¿Qué década prefieres?</label><br>
+                <input type="radio" name="decada" value="70s"> 1970s<br>
+                <input type="radio" name="decada" value="80s"> 1980s<br>
+                <input type="radio" name="decada" value="90s"> 1990s<br><br>
+
+                <label>3. ¿Qué valoras más en una camioneta?</label><br>
+                <input type="checkbox" value="diseno"> Diseño<br>
+                <input type="checkbox" value="potencia"> Potencia<br>
+                <input type="checkbox" value="comodidad"> Comodidad<br>
+                <input type="checkbox" value="rendimiento"> Rendimiento<br><br>
+
+                <label>4. ¿Has restaurado alguna camioneta?</label><br>
+                <input type="radio" name="restaurado" value="si"> Sí<br>
+                <input type="radio" name="restaurado" value="no"> No<br><br>
+
+                <label>5. Deja tu comentario:</label><br>
+                <textarea rows="4" cols="40" placeholder="Escribe aquí..."></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Camionetas Ford Clásicas | Proyecto Escolar</p>
+    </footer>
+</body>
+</html>
